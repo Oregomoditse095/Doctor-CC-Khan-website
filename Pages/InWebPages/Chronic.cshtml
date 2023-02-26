@@ -1,0 +1,124 @@
+﻿@page
+@model Dr_CC_Khan.Pages.InWebPages.ChronicModel
+@{
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .profile {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 20px;
+            grid-area: profile;
+        }
+
+        .appointment {
+            grid-area: appoint;
+        }
+
+        .enquiry {
+            grid-area: enq;
+        }
+
+        .diary {
+            grid-area: diary;
+            background-color: #2EB8B8;
+        }
+
+        h2 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        form {
+            margin:20px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-areas:
+                'profile profile appoint appoint appoint appoint'
+                'diary diary diary diary diary diary'
+                'enq enq enq enq enq enq';
+            grid-gap: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="grid-container">
+
+        <div class="profile">
+            <p>Michael Jackson<br />52<br />jackson@gmail.com</p>
+        </div>
+
+        <div class="diary">
+                <h2>Health Diary</h2>
+                <form method="POST">
+                    <div class="row mb-3">
+                        <label class="col-sm-3 col-form-label">Date of Log </label><br />
+                        <div class="col-sm-3">
+                            <input type="text" class="form-control" name="date" value="@Model.diary.Date" />
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label class="col-sm-3 col-form-label">Any Symptoms? </label><br />
+                        <div class="col-sm-3">
+                            <input type="text" class="form-control" name="symp" value="@Model.diary.Symptoms" />
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label class="col-sm-3 col-form-label">What are your thoughts and feelings today? </label><br />
+                        <div class="col-sm-3">
+                            <input type="text" class="form-control" name="feel" value="@Model.diary.Mood" />
+                        </div>
+                    </div>
+                    <br />
+                    <div class="offset-sm-3 col-sm-3 d-grid">
+                        <a class='btn btn-primary btn-sm' href='/InWebPages/Enquiry' style="background-color: #99CC00; border-block: 0px">Save Entry</a>
+                        <br />
+                    </div>
+                    
+                </form>
+        </div>
+
+        <div class="appointment">
+            <h2>Appointment</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Time</th>
+                        <th>Appointment Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2022/11/11</td>
+                        <td>10:45</td>
+                        <td>Heartburn</td>
+                    </tr>
+                </tbody>
+            </table><br /><br /><br />
+        </div>
+
+        <div class="enquiry">
+            <h2>Ask Away...</h2>
+            <form method="POST">
+                <div class="row mb-3">
+                    <label class="col-sm-3 col-form-label">Ask Dr Khan... </label><br />
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control" name="enquiry" value="" />
+                    </div>
+                </div>
+                <br /><br />
+                <div class="offset-sm-3 col-sm-3 d-grid">
+                    <a class='btn btn-primary btn-sm' href='/InWebPages/Enquiry' style="background-color: #99CC00; border-block: 0px">Submit</a>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>

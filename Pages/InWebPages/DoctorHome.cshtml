@@ -1,0 +1,68 @@
+﻿@page
+@model Dr_CC_Khan.Pages.InWebPages.DoctorHomeModel
+@{
+    ViewData["Title"] = "Doctor page";
+}
+
+<!--https://developers.google.com/maps/documentation/javascript/get-api-key-->
+
+<style>
+    #diary {
+        background-color: #2EB8B8;
+    }
+</style>
+
+<div class="grid-container">
+
+    <div id="diary">
+        <h3>Diary</h3>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Patient Name</th>
+                    <th>Date</th>
+                    <th>Symptom(s)</th>
+                    <th>Thoughts and Feelings</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.diary)
+                {
+                <tr>
+                    <td>@item.Email</td>
+                    <td>@item.Date</td>
+                    <td>@item.Symptoms</td>
+                    <td>@item.Mood</td>
+                </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <div id="records">
+
+        <h3>Med Records</h3>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Med ID</th>
+                    <th>Patient Name</th>
+                    <th>Patient Illness</th>
+                    <th>Date of consultation</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var i in Model.med_rec)
+                { 
+                <tr>
+                    <td>@i.id</td>
+                    <td>@i.pEmail</td>
+                    <td>@i.illness</td>
+                    <td>@i.consult_date</td>
+                </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+</div>

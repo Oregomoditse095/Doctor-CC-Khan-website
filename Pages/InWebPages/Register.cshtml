@@ -1,0 +1,70 @@
+﻿@page
+@model Dr_CC_Khan.Pages.InWebPages.RegisterModel
+@{
+    ViewData["Title"] = "Register page";
+}
+
+<style>
+    h1 {
+        color: #555555;
+    }
+</style>
+
+<div class="text-center">
+    <h1 class="display-4">Hello, Welcome.</h1><br /><br />
+                                                    <form method="POST">
+                                                        <div class="row mb-3">
+                                                            <label class="col-sm-3 col-form-label">Name: </label><br />
+                                                            <div class="col-sm-6">
+                                                                <input type="text" class="form-control" name="name" value="@Model.reg.uName" />
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="row mb-3">
+                                                            <label class="col-sm-3 col-form-label">Surname: </label><br />
+                                                            <div class="col-sm-6">
+                                                                <input type="text" class="form-control" name="surname" value="@Model.reg.uSurname" />
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="row mb-3">
+                                                            <label class="col-sm-3 col-form-label">Email: </label><br />
+                                                            <div class="col-sm-6">
+                                                                <input type="text" class="form-control" name="email" value="@Model.reg.uEmail." />
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="row mb-3">
+                                                            <label class="col-sm-3 col-form-label">Are you a chronic patient: (yes/no)</label><br />
+                                                            <div class="col-sm-6">
+                                                                <input type="text" class="form-control" name="chronic" value="" />
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="row mb-3">
+                                                            <label class="col-sm-3 col-form-label">If yes, please state your illness: </label><br />
+                                                            <div class="col-sm-6">
+                                                                <input type="text" class="form-control" name="illness" value="@Model.reg.condition" />
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="row mb-3">
+                                                            <label class="col-sm-3 col-form-label">Create Password: </label><br />
+                                                            <div class="col-sm-6">
+                                                                <input type="password" class="form-control" name="create" value="" />
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="row mb-3">
+                                                            <label class="col-sm-3 col-form-label">Confirm Password: </label><br />
+                                                            <div class="col-sm-6">
+                                                                <input type="password" class="form-control" name="confirm" value="@Model.reg.uPassword" />
+                                                            </div>
+                                                        </div>
+                                                        <br /><br />
+                                                        <div class="offset-sm-3 col-sm-3 d-grid">
+                                                            <a class='btn btn-primary btn-sm' href='/InWebPages/SignIn' style="background-color: #99CC00; border-block: 0px">Login</a>
+                                                        </div>
+                                                        <a href="/InWebPages/SignIn" style="color:deepskyblue">Have an account? Sign In</a>
+                                                    </form>
+</div>

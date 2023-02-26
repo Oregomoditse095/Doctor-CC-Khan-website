@@ -1,0 +1,89 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<style>
+    .body {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .colour1 {
+        grid-area: one;
+        background-color: #009191;
+    }
+    .colour2 {
+        grid-area: two;
+        background-color: #2EB8B8;
+    }
+    .colour3 {
+        grid-area: three;
+        background-color: #00CC99;
+    }
+    .colour4 {
+        grid-area: four;
+        background-color: #99CC00;
+    }
+    .colour5 {
+        grid-area: five;
+        background-color: #ffbf00;
+    }
+    .colour6 {
+        grid-area: six;
+        background-color: #F2F2F2;
+    }
+    .text{
+        grid-area: text;
+        margin-right: 20px;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+            'text text text one two three four five six';
+        gap: 5px;
+        padding: 10px;
+        margin-left: 10px;
+    }
+
+        .grid-container > div {
+            text-align: center;
+            padding: 20px 0;
+        }
+</style>
+
+<div class="text-center">
+    <div class="body">
+        <h1 class="display-4">Feel at Home</h1>
+        <!--
+    <p>
+        <a class='btn btn-primary btn-sm' href='/InWebPages/SignIn?id=' style="border-block: 0px; background-color: #00AAAA">Sign In</a>
+        <a class='btn btn-primary btn-sm' href='/InWebPages/Register?id=' style="border-block: 0px; background-color: #797979;">Register</a>
+    </p>-->
+        <br />
+        <div class="grid-container">
+            <div class="colour1"><p style="color: #009191">vvvvvvvvvvvvv</p></div>-
+            <div class="colour2"><p style="color: #2EB8B8">vvvvvvvvvvvvv</p></div>
+            <div class="colour3"><p style="color: #00CC99">vvvvvvvvvvvvv</p></div>
+            <div class="text">
+                <p style="text-align:left">
+                    Dr C C Khan, is a General Practice (GP) healthcare organisation,
+                    in Eersterus, Pretoria, Gauteng, South Africa<br /><br />
+                    Dr Khan specialises in the following:<br />
+                    1. General Consultation<br />
+                    2. HIV Counseling Management<br />
+                    3. Maternity Consultation Planning<br />
+                    4. General Pathology<br />
+                    5. Pediatric Consultation<br />
+                    6. Minor Procedures<br />
+                </p>
+            </div>
+            <div class="colour4"><p style="color: #99CC00">vvvvvvvvvvvvv</p></div>
+            <div class="colour5"><p style="color: #ffbf00">vvvvvvvvvvvvv</p></div>
+            <div class="colour6"><p style="color: #F2F2F2">vvvvvvvvvvvvv</p></div>
+        </div>
+
+        <h3>Available on...</h3><br />
+        <p>Mon-Fri: 08h00 - 17h00<br />Appointment can be scheduled online.</p>
+    </div>
+</div>

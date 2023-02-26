@@ -1,0 +1,126 @@
+﻿
+
+@page
+@model PrivacyModel
+@{
+    ViewData["Title"] = "Specialities Page";
+}
+<h1>@ViewData["Title"]</h1>
+<br />
+<!--<button href="/InWebPages/Consultation">Book a Consulation</button><br /><br />-->
+
+<style>
+    button {
+        background-color: #00264d;
+        border: 0px;
+        color: whitesmoke;
+    }
+
+    .khan {
+        grid-area: khan;
+        color: #555555;
+        font-size: 30px;
+    }
+
+    .general {
+        grid-area: general;
+    }
+
+    .HIV {
+        grid-area: hiv;
+    }
+
+    .maternal {
+        grid-area: maternal;
+    }
+
+    .pathology {
+        grid-area: path;
+    }
+
+    .pediatric {
+        grid-area: kids;
+    }
+
+    .minor {
+        grid-area: minor;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+            'khan khan general general hiv hiv maternal maternal'
+            'khan khan path path kids kids minor minor';
+        grid-gap: 40px;
+    }
+
+    p {
+        font-size: 13px;
+        padding-top: 15px;
+        color: #555555;
+    }
+
+    b {
+        margin-top: 15px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+</style>
+
+<div class="services">
+    <div class="grid-container">
+
+        <div class="khan"><b>Dr CC Khan Specialises In...</b></div>
+        <div class="general">
+            <b style="color: #009191; font-size: 18px;">General Consultation</b><br /><br />
+            <p>
+                Perform patient consultations and physical examinations,
+                including assessment and management of patients in casualty or emergency wards,
+                for all common medical conditions
+            </p>
+        </div>
+        <div class="HIV">
+            <b style="color: #2EB8B8; font-size: 18px;">HIV Counselling Management</b><br />
+            <p>
+                HIV (human immunodeficiency virus) is a virus that attacks the body’s immune system.
+                If HIV is not treated, it can lead to AIDS (acquired immunodeficiency syndrome).
+                There is currently no effective cure. Once people get HIV, they have it for life.
+                But with proper medical care, HIV can be controlled. People with HIV who get effective
+                HIV treatment can live long, healthy lives and protect their partners.
+            </p>
+        </div>
+        <div class="maternal">
+            <b style="color: #00CC99; font-size: 18px;">Maternity Consultation planning</b><br />
+            <p>
+                Expecting a new addition to your family is a cause for great celebration and a renewed
+                perspective on providing for your family’s well-being. At Bestmed we understand this,
+                which is why we offer you peace of mind by providing new moms and dads quality care
+                and benefits, leaving you to just enjoy the new adventure that parenthood brings.
+            </p>
+        </div>
+        <div class="pathology">
+            <b style="color: #99CC00; font-size: 18px;">General Pathology</b>
+            <p>
+                General/clinical pathology is the specialty encompassing autopsy, surgical pathology,
+                anatomical pathology, cytology and medical biochemistry, hematological pathology,
+                medical microbiology and transfusion medicine.
+            </p>
+        </div>
+        <div class="pediatric">
+            <b style="color: #ffbf00; font-size: 18px;">Pediatric Consultation</b>
+            <p>
+                A child’s relationship with the pediatrician begins as soon as he or she is born.
+                Parents are expected to already have one prior to their delivery. Otherwise, the
+                in-house (hospital) pediatrician will be the first one to check on the newborn’s
+                health until the parent finds a more preferred doctor.
+            </p>
+        </div>
+        <div class="minor">
+            <b style="color: #b3b3b3; font-size: 18px;">Minor Procedures</b>
+            <p>
+                All procedures are undertaken with the best equipment, sterilisation practices and
+                protocols. Dr Khan will take care in explaining the character of your
+                procedure and any follow-on treatment required.
+            </p>
+        </div>
+    </div>
+</div>

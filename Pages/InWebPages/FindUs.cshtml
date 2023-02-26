@@ -1,0 +1,75 @@
+﻿@page
+@model Dr_CC_Khan.Pages.InWebPages.FindUsModel
+@{
+    ViewData["Title"] = "Find Us page";
+    ViewData["API"] = "AIzaSyDAmItCiVujZFYAjTu-uQgMspGIs5gte-4";
+}
+
+<style>
+    .mail{
+        grid-area: mail;
+    }
+    .email{
+        grid-area: email; 
+    }
+    .number{
+        grid-area: phone;
+    }
+    .map{
+        grid-area: map;
+    }
+    .grid-template{
+        display: grid;
+        grid-template-areas:
+            'mail mail mail map'
+            'email email email map'
+            'phone phone phone map';
+        grid-gap: 25px;
+    }
+    #map {
+        height: 400px;
+        width: 600px; 
+    }
+</style>
+
+<div class="grid-template">
+    <div class="mail">
+        <h3 style=" color: #016FA0;">Mail Address</h3>
+        <br />
+        <p>
+            327 St Joseph Ave <br />
+            Eersterust <br />
+            Pretoria <br />
+            0022
+        </p>
+    </div>
+    <div class="email">
+        <h3 style="color: #63A103; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Email Address</h3>
+        <br />
+        <p>surgery@drcckhan.co.za<br />Chriskhan@honeyfax.co.za</p>
+    </div>
+    <div class="number">
+        <h3 style="color: #00AAAA; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Phone Number</h3>
+        <br />
+        <p>(012) 065 0489</p>
+    </div>
+    <div class="map">
+        <h3 style="color: #555555; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; ">Locate Dr Khan on Map</h3>
+        <br />
+        <!--AIzaSyDAmItCiVujZFYAjTu-uQgMspGIs5gte-4-->
+        <script async
+                src="https://maps.googleapis.com/maps/api/js?key=@(ViewData["API"])&callback=initMap">
+        </script>
+        <div id="map"></div>
+        <script>
+            var map;
+            function initMap() {
+                map = new google.maps.Map(document.getElementById('map'), {
+                    center: {
+                        lat: -25.71543, lng: 28.31404},
+                    zoom: 8
+                });
+            }
+        </script>
+    </div>
+</div>

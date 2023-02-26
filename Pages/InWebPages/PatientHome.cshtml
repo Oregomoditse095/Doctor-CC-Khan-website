@@ -1,0 +1,87 @@
+﻿@page
+@model Dr_CC_Khan.Pages.InWebPages.PatientHomeModel
+@{
+    ViewData["Title"] = "Patient Home Page";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .profile {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size:20px;
+            grid-area: profile;
+        }
+        .appointment {
+            grid-area: appoint;
+        }
+        .enquiry {
+            grid-area: enq;
+        }
+
+        h2 {
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-areas:
+                'profile profile appoint appoint appoint appoint'
+                'profile profile enq enq enq enq';
+            grid-gap: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="grid-container">
+        
+        <div class="profile">
+            @foreach (var i in Model.appointment)
+            {
+            <p>@i.name <br />@i.age<br />@i.email</p>
+            }
+        </div>
+
+        <div class="appointment">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Time</th>
+                        <th>Appointment Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.appointment)
+                    {
+                    <tr>
+                        <td>@item.date</td>
+                        <td>@item.time</td>
+                        <td>@item.details</td>
+                    </tr>
+                    }
+                </tbody>
+            </table><br /><br /><br />
+        </div>
+
+        <div class="enquiry">
+            <h2>Ask Away...</h2>
+            <form method="POST">
+                <div class="row mb-3">
+                    <label class="col-sm-3 col-form-label">Ask Dr Khan... </label><br />
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control" name="enquiry" value="" />
+                    </div>
+                </div>
+                <br /><br />
+                <div class="offset-sm-3 col-sm-3 d-grid">
+                    <a class='btn btn-primary btn-sm' href='/InWebPages/Enquiry' style="background-color: #99CC00; border-block: 0px">Submit</a>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>

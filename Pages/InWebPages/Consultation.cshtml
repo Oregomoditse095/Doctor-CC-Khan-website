@@ -1,0 +1,56 @@
+﻿@page
+@model Dr_CC_Khan.Pages.InWebPages.AppointmentsModel
+@{
+}
+
+<div class="consultation">
+    <h1 class="display-4">Book a Consultation.</h1><br /><br />
+     <form method="POST">
+           <div class="row mb-3">
+                <label class="col-sm-3 col-form-label">Name: </label><br />
+                <div class="col-sm-6">
+                    <input type="text" class="form-control" name="name" value="" />
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-3 col-form-label">Surname: </label><br />
+                <div class="col-sm-6">
+                    <input type="text" class="form-control" name="surname" value="" />
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-3 col-form-label">Email: </label><br />
+                <div class="col-sm-6">
+                    <input type="text" class="form-control" name="email" value="" />
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-3 col-form-label">Appointment Date: (yyyy/mm/dd)</label><br />
+                <div class="col-sm-6">
+                    <input type="text" class="form-control" name="create" value="" />
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-3 col-form-label">Appointment Time: (hh:mm)</label><br />
+                <div class="col-sm-6">
+                    <input type="text" class="form-control" name="confirm" value="" />
+                </div>
+            </div>
+
+            <div class="row mb-3">
+            <label class="col-sm-3 col-form-label">Appointment Details: </label><br />
+            <div class="col-sm-6">
+                <input type="text" class="form-control" name="confirm" value="" />
+            </div>
+        </div>
+
+        <br /><br />
+        <div class="offset-sm-3 col-sm-3 d-grid">
+            <a class='btn btn-primary btn-sm' href='/InWebPages/PatientHome' style="background-color: #99CC00; border-block: 0px">Submit</a>
+        </div>
+    </form>
+</div>
