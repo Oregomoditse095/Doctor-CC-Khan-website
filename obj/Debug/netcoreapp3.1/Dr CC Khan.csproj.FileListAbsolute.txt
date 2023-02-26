@@ -1,0 +1,87 @@
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\Dr CC Khan.exe
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\Dr CC Khan.deps.json
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\Dr CC Khan.runtimeconfig.json
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\Dr CC Khan.runtimeconfig.dev.json
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\Dr CC Khan.dll
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\Dr CC Khan.pdb
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\Dr CC Khan.Views.dll
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\Dr CC Khan.Views.pdb
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\obj\Debug\netcoreapp3.1\Dr CC Khan.csproj.AssemblyReference.cache
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\obj\Debug\netcoreapp3.1\Dr CC Khan.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\obj\Debug\netcoreapp3.1\Dr CC Khan.AssemblyInfoInputs.cache
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\obj\Debug\netcoreapp3.1\Dr CC Khan.AssemblyInfo.cs
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\obj\Debug\netcoreapp3.1\Dr CC Khan.csproj.CoreCompileInputs.cache
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\obj\Debug\netcoreapp3.1\Dr CC Khan.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\obj\Debug\netcoreapp3.1\Dr CC Khan.RazorAssemblyInfo.cache
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\obj\Debug\netcoreapp3.1\Dr CC Khan.RazorAssemblyInfo.cs
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\obj\Debug\netcoreapp3.1\staticwebassets\Dr CC Khan.StaticWebAssets.Manifest.cache
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\obj\Debug\netcoreapp3.1\staticwebassets\Dr CC Khan.StaticWebAssets.xml
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\obj\Debug\netcoreapp3.1\scopedcss\bundle\Dr CC Khan.styles.css
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\obj\Debug\netcoreapp3.1\Dr CC Khan.TagHelpers.input.cache
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\obj\Debug\netcoreapp3.1\Dr CC Khan.TagHelpers.output.cache
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\obj\Debug\netcoreapp3.1\Dr CC Khan.RazorCoreGenerate.cache
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\obj\Debug\netcoreapp3.1\Dr CC Khan.RazorTargetAssemblyInfo.cache
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\obj\Debug\netcoreapp3.1\Dr CC Khan.RazorTargetAssemblyInfo.cs
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\obj\Debug\netcoreapp3.1\Dr CC Khan.Views.pdb
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\obj\Debug\netcoreapp3.1\Dr CC Khan.dll
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\obj\Debug\netcoreapp3.1\Dr CC Khan.pdb
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\obj\Debug\netcoreapp3.1\Dr CC Khan.genruntimeconfig.cache
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\obj\Debug\netcoreapp3.1\Dr CC Khan.csproj.CopyComplete
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\obj\Debug\netcoreapp3.1\Razor\Pages\Specialities.cshtml.g.cs
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\obj\Debug\netcoreapp3.1\Razor\Pages\InWebPages\Register.cshtml.g.cs
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\obj\Debug\netcoreapp3.1\Razor\Pages\InWebPages\SignIn.cshtml.g.cs
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\obj\Debug\netcoreapp3.1\Razor\Pages\InWebPages\FindUs.cshtml.g.cs
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\obj\Debug\netcoreapp3.1\Razor\Pages\InWebPages\DoctorHome.cshtml.g.cs
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\obj\Debug\netcoreapp3.1\Razor\Pages\InWebPages\PatientHome.cshtml.g.cs
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\obj\Debug\netcoreapp3.1\Razor\Pages\InWebPages\Enquiry.cshtml.g.cs
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\obj\Debug\netcoreapp3.1\Razor\Pages\InWebPages\Consultation.cshtml.g.cs
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\obj\Debug\netcoreapp3.1\Razor\Pages\InWebPages\Chronic.cshtml.g.cs
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Oregomoditse Makinta\Documents\CODE\Dr CC Khan\obj\Debug\netcoreapp3.1\Razor\Pages\InWebPages\ErrorPage.cshtml.g.cs
